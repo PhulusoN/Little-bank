@@ -12,7 +12,7 @@ struct User {
     int balance;
 };
 
-// Helper function: clears cin's error state and discards bad input
+
 void clearInput() {
     cin.clear();
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
